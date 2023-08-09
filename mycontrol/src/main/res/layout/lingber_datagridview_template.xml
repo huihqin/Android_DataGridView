@@ -19,7 +19,9 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="#00000000"
+        >
         <!--RecyclerView-->
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rv_rv1"
@@ -30,24 +32,24 @@
         
         <ImageButton
             android:id="@+id/btn_prev"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentRight="true"
             android:src="@drawable/lingber_ic_up"
             android:background="@drawable/lingber_ripple_bg_btn"
             android:layout_marginBottom="10dp"
-            android:layout_marginRight="10dp"
+            android:layout_marginRight="5dp"
             android:layout_marginTop="10dp"/>
 
         <RelativeLayout
             android:id="@+id/rv_page_number"
-            android:layout_width="60dp"
-            android:layout_height="100dp"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
             android:layout_below="@+id/btn_prev"
             android:layout_alignParentRight="true"
             android:layout_marginBottom="10dp"
-            android:layout_marginRight="10dp"
+            android:layout_marginRight="5dp"
             android:background="@drawable/lingber_page_number_shape">
 
             <TextView
@@ -63,10 +65,10 @@
                 android:id="@+id/tv_delimiter"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20sp"
-                android:textColor="#ff515151"
                 android:layout_centerInParent="true"
-                android:text="/"/>
+                android:text="/"
+                android:textColor="#ff515151"
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/tv_count_page"
@@ -81,13 +83,13 @@
 
         <ImageButton
             android:id="@+id/btn_next"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_alignParentRight="true"
             android:layout_below="@+id/rv_page_number"
             android:src="@drawable/lingber_ic_down"
             android:background="@drawable/lingber_ripple_bg_btn"
-            android:layout_marginRight="10dp"/>
+            android:layout_marginRight="5dp"/>
 
     </RelativeLayout>
 

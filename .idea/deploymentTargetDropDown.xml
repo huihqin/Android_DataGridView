@@ -6,12 +6,12 @@
         <type value="RUNNING_DEVICE_TARGET" />
         <deviceKey>
           <Key>
-            <type value="VIRTUAL_DEVICE_PATH" />
-            <value value="C:\Users\huihqin\.android\avd\10.1_WXGA_Tablet_API_33.avd" />
+            <type value="SERIAL_NUMBER" />
+            <value value="80d32254" />
           </Key>
         </deviceKey>
       </Target>
     </runningDeviceTargetSelectedWithDropDown>
-    <timeTargetWasSelectedWithDropDown value="2023-08-08T18:57:06.752607Z" />
+    <timeTargetWasSelectedWithDropDown value="2023-08-09T09:51:48.983054300Z" />
   </component>
 </project>

@@ -3,6 +3,7 @@ package com.lingber.mycontrol.datagridview;
 import android.content.Context;
 import android.graphics.drawable.GradientDrawable;
 import android.os.Build;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -107,7 +108,6 @@ public class RecyclerviewAdapter extends RecyclerView.Adapter<RecyclerviewAdapte
             LinearLayout.LayoutParams etLayoutParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
             mContentView.setGravity(Gravity.CENTER);
             mContentView.setTextSize(20);
-            //mContentView.setBackground(null);
             mContentView.setId(inflater.getResources().getIdentifier("item_cell_content"+i, "id", inflater.getContext().getPackageName()));
 
             mItemLayout.addView(mContentView, etLayoutParams);

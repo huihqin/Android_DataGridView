@@ -5,6 +5,7 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.view.Window;
@@ -65,8 +66,8 @@ public class PageNumberSelector extends DialogFragment implements View.OnClickLi
             window.getDecorView().setPadding(0, 0, 0, 0);
             layoutParams = window.getAttributes();
             layoutParams.gravity = Gravity.CENTER;
-            layoutParams.height = 500;
-            layoutParams.width = 850;
+            layoutParams.height = 1410;
+            layoutParams.width = 1800;
             window.setAttributes(layoutParams);
             // 必须
             window.getDecorView().setBackgroundColor(Color.GREEN);

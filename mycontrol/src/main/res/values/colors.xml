@@ -5,6 +5,7 @@
     <color name="colorHeader">#398BDC</color>
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorCyan">#BCEAE3</color>
-    <color name="colorGray">#DBDBDB</color>
+    <color name="colorGray">#DBDBDB</color>\
+    <color name="colorGray_50">#7FDBDBDB</color>
 
 </resources>
