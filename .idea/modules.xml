@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Android_DataGridView.iml" filepath="$PROJECT_DIR$/.idea/modules/Android_DataGridView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android_DataGridView.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android_DataGridView.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android_DataGridView.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android_DataGridView.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android_DataGridView.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android_DataGridView.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android_DataGridView.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android_DataGridView.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mycontrol/Android_DataGridView.mycontrol.iml" filepath="$PROJECT_DIR$/.idea/modules/mycontrol/Android_DataGridView.mycontrol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mycontrol/Android_DataGridView.mycontrol.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/mycontrol/Android_DataGridView.mycontrol.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mycontrol/Android_DataGridView.mycontrol.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mycontrol/Android_DataGridView.mycontrol.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mycontrol/Android_DataGridView.mycontrol.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/mycontrol/Android_DataGridView.mycontrol.unitTest.iml" />
+    </modules>
+  </component>
+</project>
